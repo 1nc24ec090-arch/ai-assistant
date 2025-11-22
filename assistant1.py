@@ -10,11 +10,10 @@ import threading
 import time
 import json
 from random import choice
-
 WAKE_WORDS = ("hey assistant", "ok assistant", "assistant","voice bot")
-MUSIC_FOLDER = r"C:\Users\%USERNAME%\Music"
+MUSIC_FOLDER = r"C:\Users\sagar\Music"
 APP_PATHS = {
-    "vscode": r"C:\Users\%USERNAME%\AppData\Local\Programs\Microsoft VS Code\Code.exe",
+    "vs code": r"C:\Users\sagar\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code\Visual Studio Code.lnk",
     "calculator": r"C:\Windows\System32\calc.exe",
 }
 REMINDERS_FILE = "assistant_reminders.json"
