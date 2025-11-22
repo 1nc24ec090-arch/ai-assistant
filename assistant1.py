@@ -11,7 +11,7 @@ import time
 import json
 from random import choice
 
-WAKE_WORDS = ("hey assistant", "ok assistant", "assistant","voice bot" )
+WAKE_WORDS = ("hey assistant", "ok assistant", "assistant","voice bot")
 MUSIC_FOLDER = r"C:\Users\%USERNAME%\Music"
 APP_PATHS = {
     "vscode": r"C:\Users\%USERNAME%\AppData\Local\Programs\Microsoft VS Code\Code.exe",
